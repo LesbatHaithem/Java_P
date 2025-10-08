@@ -22,6 +22,7 @@ public Point3D(Double x) {
     void afficher () {
         System.out.println("x= "+ this.x + " y= "+ this.y + " z= "+ this.z);
     }
+    
 
     
 }

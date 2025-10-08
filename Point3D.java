@@ -19,7 +19,8 @@ public Point3D(Double x) {
         super(p.x, p.y);
         this.z =p.z;
     }
-    void afficher () {
+ @Override
+   public void affiche() {
         System.out.println("x= "+ this.x + " y= "+ this.y + " z= "+ this.z);
     }
     

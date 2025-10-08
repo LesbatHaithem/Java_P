@@ -18,7 +18,10 @@ public class TestPoint {
             p1.translate(10.0, -10.0);
 
             Point3D p3d1= new Point3D(1.0,2.0,3.0);
+            Point3D p3d2= new Point3D(4.0,5.0,6.0);
                 p3d1.affiche();
+                p3d1.milieu(p3d2).affiche();
+                
 
         
 

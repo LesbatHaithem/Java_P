@@ -23,6 +23,12 @@ public Point3D(Double x) {
    public void affiche() {
         System.out.println("x= "+ this.x + " y= "+ this.y + " z= "+ this.z);
     }
+
+   public Point3D milieu(Point3D other){
+    Point3D p=
+    new Point3D((this.x+other.x)/2, (this.y+other.y)/2, (this.z+other.z)/2);
+    return p;
+   } 
     
 
     

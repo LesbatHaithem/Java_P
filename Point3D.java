@@ -24,11 +24,16 @@ public Point3D(Double x) {
         System.out.println("x= "+ this.x + " y= "+ this.y + " z= "+ this.z);
     }
 
-   public Point3D milieu(Point3D other){
+   public Point3D milieu(Point3D other){ // 
     Point3D p=
     new Point3D((this.x+other.x)/2, (this.y+other.y)/2, (this.z+other.z)/2);
     return p;
    } 
+   public static Point3D milieu(Point3D p1, Point3D p2){ 
+    Point3D p=
+    new Point3D((p1.x+p2.x)/2, (p1.y+p2.y)/2, (p1.z+p2.z)/2);
+    return p;
+   }
     
 
     

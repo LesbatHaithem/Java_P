@@ -61,17 +61,16 @@ public void translate (Double dx , Double dy){
         System.out.println("("+this.x+","+this.y+")");
 
 
-}
-public void affiche(){
+}public void affiche(){
     System.out.println("("+this.x+","+this.y+")");
 }
-public static Double distance(Point p1 ,Point p2){
+public static Double distance(Point p1 ,Point p2){ // methode static
     Double r = Math.sqrt((Math.pow(p2.x-p1.x,2)) +(Math.pow(p2.y-p1.y,2)));    
     return r; 
 }
 
-public static Point milieu (Point p1 ,Point p2){
-    Point r = new Point((p1.x+p2.x)/2 ,(p1.y+p2.y)/2  ) ;
+public static Point milieu (Point p1 ,Point p2){    // methode static
+    Point r = new Point((p1.x+p2.x)/2 ,(p1.y+p2.y)/2  ) ; // 
     return r ;
 
 }
